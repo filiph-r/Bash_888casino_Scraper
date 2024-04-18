@@ -12,7 +12,7 @@ There are many ways to access this data. One is to observe the HTML and just gat
 
 <h2>Executable:</h2>
 
-hourly_jackpot_scraper.sh file -> [here](https://raw.githubusercontent.com/filiph-r/Bash_888casino_Scraper-/main/hourly_jackpot_scraper.sh)<br>
+hourly_jackpot_scraper.sh file -> [here](https://github.com/filiph-r/Bash_888casino_Scraper-/blob/main/hourly_jackpot_scraper.sh)<br>
 Note: command-line tools like <b>curl</b> and <b>jq</b> were used. Make sure they are installed on your system
 
 
