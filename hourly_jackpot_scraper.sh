@@ -62,9 +62,10 @@ main() {
         fi
     done
     
+    lowercaseCurrency=$(echo $currency | tr '[:upper:]' '[:lower:]')  # Convert to lowercase
     # Timer loop
     while true; do
-        jackpotAmount=$(scrapeHourlyJackpot $currency)
+        jackpotAmount=$(scrapeHourlyJackpot $lowercaseCurrency)
         echo "$JACKPOT_NAME: $jackpotAmount $currency"
         sleep $duration 
     done
