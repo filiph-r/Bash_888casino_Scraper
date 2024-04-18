@@ -12,7 +12,7 @@ There are many ways to access this data. One is to observe the HTML and just gat
 
 <h2>Executable:</h2>
 
-hourly_jackpot_scraper.sh file -> [here](https://raw.githubusercontent.com/filiph-r/Bash_888casino_Scraper-/main/hourly_jackpot_scraper.sh)<br><br>
+hourly_jackpot_scraper.sh file -> [here](https://raw.githubusercontent.com/filiph-r/Bash_888casino_Scraper-/main/hourly_jackpot_scraper.sh)<br>
 Note: command-line tools like <b>curl</b> and <b>jq</b> were used. Make sure they are installed on your system
 
 
@@ -26,7 +26,8 @@ Example2: ./hourly_jackpot_scraper.sh 5<br>
 You will also be prompted to input the desired currency.<br>
 After that, the program will infinitely print out the value of the hourly jackpot in the given time intervals.<br><br>
 
-![example](https://github.com/filiph-r/Java_888casino_Scraper/assets/48492507/2d31c117-5adb-4b31-8843-fb4b2de5b1bb)
+![Example](https://github.com/filiph-r/Bash_888casino_Scraper-/assets/48492507/e25d5c4f-b170-4e24-922d-b3111530f978)
+
 
 <h2>How it's done:</h2>
 <h3>Analyzing the webpage</h3>
